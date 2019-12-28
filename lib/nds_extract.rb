@@ -41,8 +41,8 @@ def movies_with_director_key(name,collection)
   end 
 end 
 
-def movies_with_directors_set 
-  
+def movies_with_directors_set(hash) 
+  binding.pry 
 end 
 
 
