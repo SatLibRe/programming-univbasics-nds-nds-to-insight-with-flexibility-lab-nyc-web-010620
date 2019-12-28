@@ -35,7 +35,8 @@ end
 
 # Your code after this point
 
-def movies_with_director_key 
+def movies_with_director_key(name,collection) 
+  binding.pry 
 end 
 
 
