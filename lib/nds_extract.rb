@@ -101,16 +101,16 @@ end
 
 
 
-#movies_with_director_key(name,movies_collection)
+movies_with_director_key(name,movies_collection)
 
-# def movies_with_directors_set(source)
-#   source.map do |n|
-#     movies_with_director_key(n[:name],n[:movies])
-#     end
-# end 
+def movies_with_directors_set(source)
+  source.map do |n|
+    movies_with_director_key(n[:name],n[:movies])
+    end
+end 
 
-# [{:name=>"Byron Poodle", :movies=>[{:title=>"At the park"}, {:title=>"On the couch"}]},
-# {:name=>"Nancy Drew", :movies=>[{:title=>"Biting"}]}]
+[{:name=>"Byron Poodle", :movies=>[{:title=>"At the park"}, {:title=>"On the couch"}]},
+{:name=>"Nancy Drew", :movies=>[{:title=>"Biting"}]}]
 
 
  # GOAL: For each director, find their :movies Array and stick it in a new Array
