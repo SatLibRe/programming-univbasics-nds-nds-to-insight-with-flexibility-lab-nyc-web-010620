@@ -36,25 +36,9 @@ end
 # Your code after this point
 
 def movies_with_director_key(name,movies_collection)
-  new_arr = []
-    movies_collection.each do |movie|
-      movie[:director_name] = name
-      new_arr.push(movie)
-    end
-    return new_arr
 end 
 
-# name = "Byron Poodle"
-# movies_collection = [{:title=>"TestA"}, {:title=>"TestB"}]
 
-# def movies_with_director_key(name,movies_collection)
-#   new_arr = []
-#     movies_collection.each do |movie|
-#       movie[:director_name] = name
-#       new_arr.push(movie)
-#     end
-#   new_arr
-# end
 
  # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
