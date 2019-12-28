@@ -42,7 +42,10 @@ def movies_with_director_key(name,collection)
 end 
 
 def movies_with_directors_set(hash) 
-  binding.pry 
+  new_hash = {}
+    hash.each do |movie|
+      binding.pry 
+  end 
 end 
 
 
