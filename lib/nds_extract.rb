@@ -37,7 +37,7 @@ end
 
 def movies_with_director_key(name,collection) 
   collection.each do |movie|
-      movie[:director] = name
+      movie[:director_name] = name
   end 
 end 
 
