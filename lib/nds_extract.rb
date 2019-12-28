@@ -46,7 +46,9 @@ def movies_with_directors_set(hash)
     hash.each do |movie|
       new_hash[movie[:movies]] = :director_name
   end 
-    
+    new_hash.each do |item|
+      binding.pry 
+  end
 end 
 
 
